@@ -9,9 +9,14 @@ font-family: 'Roboto', sans-serif; */
 .hero {
   text-align: center;
   background-color: var(--main-color);
-  background-image: url("bg-hero.jpg");
+  background-image: url("../images/bg-hero.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: white;
-  padding: 200px 0;
+
+  padding: 25% 2%;
 }
 body {
   font-family: var(--main-font);
@@ -24,6 +29,12 @@ body {
   font-style: bold;
   border-radius: 50px;
   padding: 10px 25px;
+  margin-top: 20px;
+}
+.btn-start:hover {
+  background-color: white;
+  font-family: var(--second-font);
+  color: var(--second-color);
 }
 .hero h1 {
   font-weight: bold;
