@@ -13,7 +13,7 @@ font-family: 'Roboto', sans-serif; */
   background-color: var(--main-color);
   background-image: url("../images/bg-hero.jpg");
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: white;
@@ -61,6 +61,9 @@ p {
 }
 .last {
   margin-bottom: 40px;
+}
+.in-between {
+  margin-bottom: 0px;
 }
 /* about  page css */
 .about-bg {
@@ -160,14 +163,18 @@ p {
     overflow-x: hidden;
   }
   .hero {
-    padding-bottom: 0;
+    padding-bottom: 25px;
     padding-top: 25px;
   }
   .hero img {
     margin-bottom: 40px;
+    height: auto;
   }
-  .last {
-    margin-bottom: 0px;
+  /* .last {
+    margin-bottom: 25px;
+  } */
+  .in-between {
+    margin-bottom: 40px;
   }
   .hero h1 {
     font-size: 38px;
