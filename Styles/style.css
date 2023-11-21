@@ -27,7 +27,23 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 700;
   font-size: 72px;
   line-height: 1.2;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.white-text {
+  color: white;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.header-text {
+  color: var(--assist-color);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
 }
 body {
   font-family: var(--main-font);
