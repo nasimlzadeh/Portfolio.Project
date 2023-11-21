@@ -20,6 +20,15 @@ font-family: 'Roboto', sans-serif; */
 
   padding: 25% 2%;
 }
+.gallery-head {
+  text-align: center;
+  color: white;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
 body {
   font-family: var(--main-font);
   background-color: var(--main-color);
