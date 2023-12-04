@@ -284,4 +284,8 @@ p {
   .header-container img {
     display: none;
   }
+  .page-menu {
+    float: none;
+    text-align: center;
+  }
 }
