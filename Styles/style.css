@@ -4,18 +4,23 @@ font-family: 'Roboto', sans-serif; */
   --main-font: "Roboto", sans-serif;
   --second-font: "Montserrat", sans-serif;
   --main-color: #1b1b1b;
+  --header-color: #202020;
+  --footer-color: #282323;
   --second-color: #272142;
   --assist-color: #f65282;
   --box-color: #2d2727;
 }
 .hero {
   text-align: center;
-  background-color: var(--main-color);
+  background-color: var(--header-color);
   background-image: url("../images/bg-hero.jpg");
-  max-width: 100%;
+  /* max-width: 100%; */
   /* height: auto; */
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+
   color: white;
 
   padding: 25% 2%;
@@ -29,6 +34,33 @@ font-family: 'Roboto', sans-serif; */
   line-height: 1.2;
   margin-bottom: 40px;
 }
+.header-container {
+  height: 118px;
+  background-color: var(--header-color);
+}
+.header-container img {
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.page-menu {
+  display: inline;
+  text-align: right;
+  float: right;
+  margin-right: 80px;
+  margin-top: 43px;
+}
+.links {
+  display: inline-flex;
+  justify-content: right;
+  color: white;
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-right: 20px;
+}
+
 .white-text {
   color: white;
   font-family: var(--main-font);
@@ -248,5 +280,8 @@ p {
   }
   .about-pics {
     margin-bottom: 40px;
+  }
+  .header-container img {
+    display: none;
   }
 }
