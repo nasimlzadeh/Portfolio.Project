@@ -285,7 +285,7 @@ p {
     display: none;
   }
   .page-menu {
-    float: none;
+    float: inline-start;
     text-align: center;
   }
 }
