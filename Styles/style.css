@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif; */
   text-align: center;
   background-color: var(--header-color);
   background-image: url("../images/bg-hero.jpg");
-  max-width: 100%;
+  max-height: 100%;
   /* height: auto; */
 
   background-repeat: no-repeat;
@@ -42,6 +42,7 @@ font-family: 'Roboto', sans-serif; */
 }
 nav {
   padding: 30px 0;
+  /* width: 100%; */
 }
 nav li {
   display: inline;
@@ -63,6 +64,23 @@ nav ul {
 nav a {
   text-decoration: none;
   color: white;
+}
+.footer-design {
+  background-color: var(--footer-color);
+  padding: 20px 0;
+}
+footer img {
+  padding: 10px 0 0 110px;
+}
+.socials {
+  padding: 10px 0 0 0;
+}
+.rights {
+  padding: 10px 110px 0 0;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: end;
 }
 /* .header-container {
   height: 118px;
@@ -313,12 +331,22 @@ p {
   .header-container img {
     display: none;
   }
-  .page-menu {
-    float: none;
-    text-align: center;
+  nav ul {
+    display: block;
+    margin: 0 auto;
   }
   /* nav ul {
     display: flex;
     justify-content: center;
   } */
+  .socials {
+    text-align: start;
+
+    padding-left: 20px;
+    font-size: 12px;
+  }
+  .rights {
+    padding-right: 20px;
+    font-size: 12px;
+  }
 }
